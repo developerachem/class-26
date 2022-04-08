@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook Clone</title>
+  </head>
+  <body>
+    <section class="header shadow-sm">
+      <div class="header-left">
+          <div class="logo">
+            <i class="fa-brands fa-facebook"></i>
+          </div>
+          <div class="serch">
+              <input type="text" class="form-control" placeholder="Serch Facebook">
+          </div>
+      </div>
+      <div class="header-center">
+          <ul>
+              <li><a href=""><span><i class="fa fa-home" aria-hidden="true"></i></span></a></li>
+              <li><a href=""><span><i class="fa fa-file-video-o" aria-hidden="true"></i></span></a></li>
+              <li><a href=""><span><i class="fa fa-shopping-basket" aria-hidden="true"></i></span></a></li>
+              <li><a href=""><span><i class="fa fa-users" aria-hidden="true"></i></span></a></li>
+              <li><a href=""><span><i class="fa fa-th-large" aria-hidden="true"></i></span></a></li>
+          </ul>
+      </div>
+      <div class="header-right">
+          <img style="width: 20px;height: 20px; object-fit: cover; border-radius: 50%;" src="https://i.ibb.co/6ZQ01rM/Achem.jpg" alt=""> 
+          <h4>Developer Achem...</h4>
+          <span><i class="fa fa-th" aria-hidden="true"></i>
+          </span>
+          <span><i class="fa fa-envelope-o" aria-hidden="true"></i>
+          </span>
+          <span><i class="fa fa-bell-o" aria-hidden="true"></i>
+          </span>
+          <span><i class="fa fa-caret-down" aria-hidden="true"></i>
+          </span>
+    </section>
+
+    <!--  Main Section  -->
+
+    <section class="body container-fluid">
+        <div class="body-left">
+            <div class="profile"><img  src="https://i.ibb.co/6ZQ01rM/Achem.jpg" alt=""> <h2>Developer Achem</h2></div>
+            <div class="body_left_list">
+                <ul>
+                    <li><a href=""><span><img src="https://static.xx.fbcdn.net/rsrc.php/v3/yx/r/-XF4FQcre_i.png" alt="">
+                    </span>Friends</a></li>
+                    <li><a href=""><span><img src="https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/mk4dH3FK0jT.png" alt="">
+                    </span>Group</a></li>
+                    <li><a href=""><span><img src="https://static.xx.fbcdn.net/rsrc.php/v3/ys/r/9BDqQflVfXI.png" alt="">
+                    </span> Marketplace</a></li>
+                    <li><a href=""><span><img src="https://static.xx.fbcdn.net/rsrc.php/v3/yG/r/A1HlI2LVo58.png" alt="">
+                    </span> Watch</a></li>
+                    <li><a href=""><span><img src="https://static.xx.fbcdn.net/rsrc.php/v3/y7/r/AYj2837MmgX.png" alt="">
+                    </span>Memories</a></li>
+                    <li><a href=""><span><img src="https://static.xx.fbcdn.net/rsrc.php/v3/yl/r/_JPdPzLmp9j.png" alt="">
+                    </span>Ad Center</a></li>
+                    <li><a href=""><span><img src="https://static.xx.fbcdn.net/rsrc.php/v3/yk/r/qR88GIDM38e.png" alt=""></span>Ad Manager</a></li>
+                    <li><a href=""><span><img src="https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/tKwWVioirmj.png" alt=""></span>Climate Science Center</a></li>
+                    <li><span><img src="https://static.xx.fbcdn.net/rsrc.php/v3/yk/r/WreZVYrGEZH.png" alt=""></span><a href="">Community Help</a></li>
+                    <li><span><img src="https://static.xx.fbcdn.net/rsrc.php/v3/yR/r/tInzwsw2pVX.png" alt=""></span><a href="">COVID-19 Information Center</a></li>
+                    <li><span><img src="https://static.xx.fbcdn.net/rsrc.php/v3/y5/r/GyZZ7Jrr5OV.png" alt=""></span><a href="">Emotional health</a></li>
+                    <li><span><img src="https://static.xx.fbcdn.net/rsrc.php/v3/yd/r/9-o1e6LN_TX.png" alt=""></span><a href="">Events</a></li>
+                    <li><span><img src="https://static.xx.fbcdn.net/rsrc.php/v3/yy/r/xH4w-lk44we.png" alt=""></span><a href="">Facebook Pay</a></li>
+                    <li><span><img src="https://static.xx.fbcdn.net/rsrc.php/v3/yP/r/Zy9sJGThmCS.png" alt=""></span><a href="">Favorites</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!--  main Body Content -->
+        <div class="main-body">
+            <div class="card">
+                <div class="card-body shadow-sm">
+                    <div class="newPost">
+                        <img src="https://i.ibb.co/6ZQ01rM/Achem.jpg" alt=""> <button data-bs-toggle="modal" data-bs-target="#newPostModal"> What's On Your Mind, Developer Achem ?</button>
+                    </div> <hr>
+                    <div class="postshare">
+                        <ul>
+                            <li><span><i class="fa fa-video-camera" aria-hidden="true"></i>
+                            </span> Live Video</li>
+                            <li><span><i class="fa fa-picture-o" aria-hidden="true"></i>
+                            </span> Photo/Video</li>
+                            <li><span><i class="fa fa-meh-o" aria-hidden="true"></i>
+                            </span>Feeling/activity</li>
+                        </ul>
+                    </div>
+                </div>
+                <!--  New Post Modal Start  -->
+
+                <div id="newPostModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header"> <h4>Create Post</h4></div>
+                            <div id="msg"></div>
+                            <div class="modal-body">
+
+                                <form method="post" id="form_submit">
+                                    <div class="my-3">
+                                        <label for="User_Img">User Photo</label>
+                                        <input id="User_Img" class="form-control" type="text" name="User_Img" placeholder="User Photo">
+                                    </div>
+                                    <div class="my-3">
+                                        <label for="USer_name">User Name</label>
+                                        <input id="USer_name" class="form-control" type="text" name="USer_name" placeholder="User Name">
+                                    </div>
+                                    <div class="my-3">
+                                        <label for="Post_Image">Post Photo</label>
+                                        <input id="Post_Image" class="form-control" type="text" name="Post_Image" placeholder="Post Image">
+                                    </div>
+                                    <div class="my-3">
+                                        <label for="Post_content">Content</label>
+                                        <textarea class="form-control" name="Post_content" id="Post_content" cols="20" rows="5" placeholder=" What's on Your Mind Md Abu Sayeed"></textarea>
+                                        
+                                    </div>
+                                    <input type="submit" value="Post" class="btn btn-success w-100">
+                                </form>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--  New Post Modal End  -->
+            </div>
+
+            <div id="ShowPost">
+
+            </div>
+            
+        </div>
+        <!--  Body Right -->
+        <div class="body-right"></div>
+    </section>
+
+    
+  </body>
+</html>
